@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Polyspace Guidelines Recategorization Plan Example - Copyright 2022 - The MathWorks, Inc -->
+<polyspace_checkers_selection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="selection_schema.xsd" revision="1.0">
+  <standard name="MISRA C:2004" state="off"/>
+  <standard name="MISRA AC AGC" state="off"/>
+  <standard name="MISRA C:2012">
+    <section name="1 The implementation">
+      <check id="D1.1" state="off"/>
+    </section>
+    <section name="2 Compilation and build">
+      <check id="D2.1" state="off"/>
+    </section>
+    <section name="3 Requirements traceability">
+      <check id="D3.1" state="off">
+      </check>
+    </section>
+    <section name="4 Code design">
+      <check id="D4.1" state="off"/>
+      <check id="D4.2" state="off">
+      </check>
+      <check id="D4.3" state="off"/>
+      <check id="D4.4" state="off"/>
+      <check id="D4.5" state="off"/>
+      <check id="D4.6" state="on">
+        <comment>Revised: Required</comment>
+      </check>
+      <check id="D4.7" state="off"/>
+      <check id="D4.8" state="off"/>
+      <check id="D4.9" state="off"/>
+      <check id="D4.10" state="off"/>
+      <check id="D4.11" state="off"/>
+      <check id="D4.12" state="off"/>
+      <check id="D4.13" state="off"/>
+      <check id="D4.14" state="off"/>
+    </section>
+    <section name="1 A standard C environment">
+      <check id="1.1" state="off"/>
+      <check id="1.2" state="off"/>
+      <check id="1.3" state="off"/>
+      <check id="1.4" state="off"/>
+    </section>
+    <section name="2 Unused code">
+      <check id="2.1" state="off"/>
+      <check id="2.2" state="off"/>
+      <check id="2.3" state="off"/>
+      <check id="2.4" state="off"/>
+      <check id="2.5" state="off"/>
+      <check id="2.6" state="off"/>
+      <check id="2.7" state="off"/>
+    </section>
+    <section name="3 Comments">
+      <check id="3.1" state="off"/>
+      <check id="3.2" state="off"/>
+    </section>
+    <section name="4 Character sets and lexical conventions">
+      <check id="4.1" state="off"/>
+      <check id="4.2" state="off"/>
+    </section>
+    <section name="5 Identifiers">
+      <check id="5.1" state="off"/>
+      <check id="5.2" state="off"/>
+      <check id="5.3" state="off"/>
+      <check id="5.4" state="off"/>
+      <check id="5.5" state="off"/>
+      <check id="5.6" state="off"/>
+      <check id="5.7" state="off"/>
+      <check id="5.8" state="off"/>
+      <check id="5.9" state="off"/>
+    </section>
+    <section name="6 Types">
+      <check id="6.1" state="off"/>
+      <check id="6.2" state="off"/>
+    </section>
+    <section name="7 Literals and constants">
+      <check id="7.1" state="off"/>
+      <check id="7.2" state="off"/>
+      <check id="7.3" state="off"/>
+      <check id="7.4" state="off"/>
+    </section>
+    <section name="8 Declarations and definitions">
+      <check id="8.1" state="off"/>
+      <check id="8.2" state="off"/>
+      <check id="8.3" state="off"/>
+      <check id="8.4" state="off"/>
+      <check id="8.5" state="off"/>
+      <check id="8.6" state="off"/>
+      <check id="8.7" state="off"/>
+      <check id="8.8" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="8.9" state="off"/>
+      <check id="8.10" state="off"/>
+      <check id="8.11" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="8.12" state="off"/>
+      <check id="8.13" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="8.14" state="off"/>
+    </section>
+    <section name="9 Initialization">
+      <check id="9.1" state="off"/>
+      <check id="9.2" state="off"/>
+      <check id="9.3" state="off"/>
+      <check id="9.4" state="off"/>
+      <check id="9.5" state="off"/>
+    </section>
+    <section name="10 The essential type model">
+      <check id="10.1" state="off"/>
+      <check id="10.2" state="off"/>
+      <check id="10.3" state="off"/>
+      <check id="10.4" state="off"/>
+      <check id="10.5" state="off"/>
+      <check id="10.6" state="off"/>
+      <check id="10.7" state="off"/>
+      <check id="10.8" state="off"/>
+    </section>
+    <section name="11 Pointer type conversions">
+      <check id="11.1" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="11.2" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="11.3" state="off"/>
+      <check id="11.4" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="11.5" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="11.6" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="11.7" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="11.8" state="off"/>
+      <check id="11.9" state="off"/>
+    </section>
+    <section name="12 Expressions">
+      <check id="12.1" state="off"/>
+      <check id="12.2" state="off"/>
+      <check id="12.3" state="off"/>
+      <check id="12.4" state="off"/>
+      <check id="12.5" state="off"/>
+    </section>
+    <section name="13 Side effects">
+      <check id="13.1" state="off"/>
+      <check id="13.2" state="off"/>
+      <check id="13.3" state="off"/>
+      <check id="13.4" state="off"/>
+      <check id="13.5" state="off"/>
+      <check id="13.6" state="off"/>
+    </section>
+    <section name="14 Control statement expressions">
+      <check id="14.1" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="14.2" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="14.3" state="off"/>
+      <check id="14.4" state="off"/>
+    </section>
+    <section name="15 Control flow">
+      <check id="15.1" state="off"/>
+      <check id="15.2" state="off"/>
+      <check id="15.3" state="off"/>
+      <check id="15.4" state="off"/>
+      <check id="15.5" state="off"/>
+      <check id="15.6" state="off"/>
+      <check id="15.7" state="off"/>
+    </section>
+    <section name="16 Switch statements">
+      <check id="16.1" state="off"/>
+      <check id="16.2" state="off"/>
+      <check id="16.3" state="off"/>
+      <check id="16.4" state="off"/>
+      <check id="16.5" state="off"/>
+      <check id="16.6" state="off"/>
+      <check id="16.7" state="off"/>
+    </section>
+    <section name="17 Functions">
+      <check id="17.1" state="off"/>
+      <check id="17.2" state="off"/>
+      <check id="17.3" state="off"/>
+      <check id="17.4" state="off"/>
+      <check id="17.5" state="off"/>
+      <check id="17.6" state="off"/>
+      <check id="17.7" state="off"/>
+      <check id="17.8" state="off"/>
+    </section>
+    <section name="18 Pointers and arrays">
+      <check id="18.1" state="off"/>
+      <check id="18.2" state="off"/>
+      <check id="18.3" state="off"/>
+      <check id="18.4" state="off"/>
+      <check id="18.5" state="off"/>
+      <check id="18.6" state="off"/>
+      <check id="18.7" state="off"/>
+      <check id="18.8" state="off"/>
+    </section>
+    <section name="19 Overlapping storage">
+      <check id="19.1" state="off"/>
+      <check id="19.2" state="off"/>
+    </section>
+    <section name="20 Preprocessing directives">
+      <check id="20.1" state="off"/>
+      <check id="20.2" state="off"/>
+      <check id="20.3" state="off"/>
+      <check id="20.4" state="off"/>
+      <check id="20.5" state="off"/>
+      <check id="20.6" state="off"/>
+      <check id="20.7" state="off"/>
+      <check id="20.8" state="off"/>
+      <check id="20.9" state="off"/>
+      <check id="20.10" state="off"/>
+      <check id="20.11" state="off"/>
+      <check id="20.12" state="off"/>
+      <check id="20.13" state="off"/>
+      <check id="20.14" state="off"/>
+    </section>
+    <section name="21 Standard libraries">
+      <check id="21.1" state="off"/>
+      <check id="21.2" state="off"/>
+      <check id="21.3" state="off"/>
+      <check id="21.4" state="off"/>
+      <check id="21.5" state="off"/>
+      <check id="21.6" state="off"/>
+      <check id="21.7" state="off"/>
+      <check id="21.8" state="off"/>
+      <check id="21.9" state="off"/>
+      <check id="21.10" state="off"/>
+      <check id="21.11" state="off"/>
+      <check id="21.12" state="off"/>
+      <check id="21.13" state="off"/>
+      <check id="21.14" state="off"/>
+      <check id="21.15" state="off"/>
+      <check id="21.16" state="off"/>
+      <check id="21.17" state="off"/>
+      <check id="21.18" state="off"/>
+      <check id="21.19" state="off"/>
+      <check id="21.20" state="off"/>
+      <check id="21.21" state="off"/>
+    </section>
+    <section name="22 Resources">
+      <check id="22.1" state="off"/>
+      <check id="22.2" state="off"/>
+      <check id="22.3" state="off"/>
+      <check id="22.4" state="off"/>
+      <check id="22.5" state="off"/>
+      <check id="22.6" state="off"/>
+      <check id="22.7" state="off"/>
+      <check id="22.8" state="off"/>
+      <check id="22.9" state="off"/>
+      <check id="22.10" state="off"/>
+    </section>
+  </standard>
+  <standard name="MISRA C++:2008" state="off"/>
+  <standard name="JSF AV C++" state="off"/>
+  <standard name="SEI CERT C">
+    <section name="Preprocessor (PRE)">
+      <check id="PRE00-C" state="off"/>
+      <check id="PRE01-C" state="off"/>
+      <check id="PRE02-C" state="off">
+      </check>
+      <check id="PRE03-C" state="off">
+      </check>
+      <check id="PRE04-C" state="off">
+      </check>
+      <check id="PRE05-C" state="off">
+      </check>
+      <check id="PRE06-C" state="off"/>
+      <check id="PRE07-C" state="off"/>
+      <check id="PRE08-C" state="off">
+      </check>
+      <check id="PRE09-C" state="off"/>
+      <check id="PRE10-C" state="off"/>
+      <check id="PRE11-C" state="off"/>
+      <check id="PRE12-C" state="off">
+      </check>
+      <check id="PRE13-C" state="off">
+      </check>
+      <check id="PRE30-C" state="off"/>
+      <check id="PRE31-C" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="PRE32-C" state="off"/>
+    </section>
+    <section name="Declarations and Initialization (DCL)">
+      <check id="DCL00-C" state="off"/>
+      <check id="DCL01-C" state="off"/>
+      <check id="DCL02-C" state="off"/>
+      <check id="DCL03-C" state="off">
+      </check>
+      <check id="DCL04-C" state="off">
+      </check>
+      <check id="DCL05-C" state="off">
+      </check>
+      <check id="DCL06-C" state="off"/>
+      <check id="DCL07-C" state="off"/>
+      <check id="DCL08-C" state="off">
+      </check>
+      <check id="DCL09-C" state="off">
+      </check>
+      <check id="DCL10-C" state="off"/>
+      <check id="DCL11-C" state="off"/>
+      <check id="DCL12-C" state="off"/>
+      <check id="DCL13-C" state="off"/>
+      <check id="DCL15-C" state="off"/>
+      <check id="DCL16-C" state="off"/>
+      <check id="DCL17-C" state="off">
+      </check>
+      <check id="DCL18-C" state="off"/>
+      <check id="DCL19-C" state="off"/>
+      <check id="DCL20-C" state="off">
+      </check>
+      <check id="DCL21-C" state="off">
+      </check>
+      <check id="DCL22-C" state="off"/>
+      <check id="DCL23-C" state="off"/>
+      <check id="DCL30-C" state="off"/>
+      <check id="DCL31-C" state="off"/>
+      <check id="DCL36-C" state="off"/>
+      <check id="DCL37-C" state="off"/>
+      <check id="DCL38-C" state="off"/>
+      <check id="DCL39-C" state="off"/>
+      <check id="DCL40-C" state="off"/>
+      <check id="DCL41-C" state="off"/>
+    </section>
+    <section name="Expressions (EXP)">
+      <check id="EXP00-C" state="off"/>
+      <check id="EXP02-C" state="off">
+      </check>
+      <check id="EXP03-C" state="off">
+      </check>
+      <check id="EXP05-C" state="off"/>
+      <check id="EXP07-C" state="off">
+      </check>
+      <check id="EXP08-C" state="off"/>
+      <check id="EXP09-C" state="off"/>
+      <check id="EXP10-C" state="off"/>
+      <check id="EXP11-C" state="off">
+      </check>
+      <check id="EXP12-C" state="off"/>
+      <check id="EXP13-C" state="off"/>
+      <check id="EXP15-C" state="off"/>
+      <check id="EXP16-C" state="off">
+      </check>
+      <check id="EXP19-C" state="off"/>
+      <check id="EXP20-C" state="off">
+      </check>
+      <check id="EXP30-C" state="off"/>
+      <check id="EXP32-C" state="off"/>
+      <check id="EXP33-C" state="off"/>
+      <check id="EXP34-C" state="off"/>
+      <check id="EXP35-C" state="off"/>
+      <check id="EXP36-C" state="off"/>
+      <check id="EXP37-C" state="off"/>
+      <check id="EXP39-C" state="off"/>
+      <check id="EXP40-C" state="off"/>
+      <check id="EXP42-C" state="off"/>
+      <check id="EXP43-C" state="off"/>
+      <check id="EXP44-C" state="off"/>
+      <check id="EXP45-C" state="off"/>
+      <check id="EXP46-C" state="off"/>
+      <check id="EXP47-C" state="off"/>
+    </section>
+    <section name="Integers (INT)">
+      <check id="INT00-C" state="off"/>
+      <check id="INT01-C" state="off">
+      </check>
+      <check id="INT02-C" state="off"/>
+      <check id="INT04-C" state="off"/>
+      <check id="INT05-C" state="off">
+      </check>
+      <check id="INT07-C" state="off"/>
+      <check id="INT08-C" state="off"/>
+      <check id="INT09-C" state="off"/>
+      <check id="INT10-C" state="off"/>
+      <check id="INT12-C" state="off"/>
+      <check id="INT13-C" state="off"/>
+      <check id="INT14-C" state="off"/>
+      <check id="INT15-C" state="off">
+      </check>
+      <check id="INT16-C" state="off">
+      </check>
+      <check id="INT17-C" state="off">
+      </check>
+      <check id="INT18-C" state="off"/>
+      <check id="INT30-C" state="off"/>
+      <check id="INT31-C" state="off"/>
+      <check id="INT32-C" state="off"/>
+      <check id="INT33-C" state="off"/>
+      <check id="INT34-C" state="off"/>
+      <check id="INT35-C" state="on">
+        <comment>Revised: Mandatory</comment>
+      </check>
+      <check id="INT36-C" state="off"/>
+    </section>
+    <section name="Floating Point (FLP)">
+      <check id="FLP00-C" state="off"/>
+      <check id="FLP01-C" state="off">
+      </check>
+      <check id="FLP02-C" state="off"/>
+      <check id="FLP03-C" state="off"/>
+      <check id="FLP04-C" state="off">
+      </check>
+      <check id="FLP05-C" state="off">
+      </check>
+      <check id="FLP06-C" state="off"/>
+      <check id="FLP07-C" state="off">
+      </check>
+      <check id="FLP30-C" state="off"/>
+      <check id="FLP32-C" state="off"/>
+      <check id="FLP34-C" state="off"/>
+      <check id="FLP36-C" state="off"/>
+      <check id="FLP37-C" state="off"/>
+    </section>
+    <section name="Arrays (ARR)">
+      <check id="ARR00-C" state="off">
+      </check>
+      <check id="ARR01-C" state="off"/>
+      <check id="ARR02-C" state="off"/>
+      <check id="ARR30-C" state="off"/>
+      <check id="ARR32-C" state="off"/>
+      <check id="ARR36-C" state="off"/>
+      <check id="ARR37-C" state="off"/>
+      <check id="ARR38-C" state="off"/>
+      <check id="ARR39-C" state="off"/>
+    </section>
+    <section name="Characters and Strings (STR)">
+      <check id="STR00-C" state="off">
+      </check>
+      <check id="STR01-C" state="off">
+      </check>
+      <check id="STR02-C" state="off"/>
+      <check id="STR03-C" state="off"/>
+      <check id="STR04-C" state="off">
+      </check>
+      <check id="STR05-C" state="off">
+      </check>
+      <check id="STR06-C" state="off">
+      </check>
+      <check id="STR07-C" state="off"/>
+      <check id="STR09-C" state="off">
+      </check>
+      <check id="STR10-C" state="off">
+      </check>
+      <check id="STR11-C" state="off"/>
+      <check id="STR30-C" state="off"/>
+      <check id="STR31-C" state="off"/>
+      <check id="STR32-C" state="off"/>
+      <check id="STR34-C" state="off"/>
+      <check id="STR37-C" state="off"/>
+      <check id="STR38-C" state="off"/>
+    </section>
+    <section name="Memory Management (MEM)">
+      <check id="MEM00-C" state="off"/>
+      <check id="MEM01-C" state="off"/>
+      <check id="MEM02-C" state="off"/>
+      <check id="MEM03-C" state="off"/>
+      <check id="MEM04-C" state="off"/>
+      <check id="MEM05-C" state="off"/>
+      <check id="MEM06-C" state="off"/>
+      <check id="MEM07-C" state="off">
+      </check>
+      <check id="MEM10-C" state="off">
+      </check>
+      <check id="MEM11-C" state="off"/>
+      <check id="MEM12-C" state="off"/>
+      <check id="MEM30-C" state="off"/>
+      <check id="MEM31-C" state="off"/>
+      <check id="MEM33-C" state="off"/>
+      <check id="MEM34-C" state="off"/>
+      <check id="MEM35-C" state="off"/>
+      <check id="MEM36-C" state="off"/>
+    </section>
+    <section name="Input Output (FIO)">
+      <check id="FIO01-C" state="off">
+      </check>
+      <check id="FIO02-C" state="off"/>
+      <check id="FIO03-C" state="off">
+      </check>
+      <check id="FIO05-C" state="off">
+      </check>
+      <check id="FIO06-C" state="off">
+      </check>
+      <check id="FIO08-C" state="off">
+      </check>
+      <check id="FIO09-C" state="off">
+      </check>
+      <check id="FIO10-C" state="off">
+      </check>
+      <check id="FIO11-C" state="off"/>
+      <check id="FIO13-C" state="off">
+      </check>
+      <check id="FIO14-C" state="off">
+      </check>
+      <check id="FIO15-C" state="off">
+      </check>
+      <check id="FIO17-C" state="off">
+      </check>
+      <check id="FIO18-C" state="off">
+      </check>
+      <check id="FIO19-C" state="off">
+      </check>
+      <check id="FIO20-C" state="off">
+      </check>
+      <check id="FIO21-C" state="off"/>
+      <check id="FIO22-C" state="off">
+      </check>
+      <check id="FIO23-C" state="off">
+      </check>
+      <check id="FIO24-C" state="off"/>
+      <check id="FIO30-C" state="off"/>
+      <check id="FIO32-C" state="off"/>
+      <check id="FIO34-C" state="off"/>
+      <check id="FIO37-C" state="off"/>
+      <check id="FIO38-C" state="off"/>
+      <check id="FIO39-C" state="off"/>
+      <check id="FIO40-C" state="off"/>
+      <check id="FIO41-C" state="off"/>
+      <check id="FIO42-C" state="off"/>
+      <check id="FIO44-C" state="off"/>
+      <check id="FIO45-C" state="off"/>
+      <check id="FIO46-C" state="off"/>
+      <check id="FIO47-C" state="off"/>
+    </section>
+    <section name="Environment (ENV)">
+      <check id="ENV01-C" state="off"/>
+      <check id="ENV02-C" state="off">
+      </check>
+      <check id="ENV03-C" state="off">
+      </check>
+      <check id="ENV30-C" state="off"/>
+      <check id="ENV31-C" state="off"/>
+      <check id="ENV32-C" state="off"/>
+      <check id="ENV33-C" state="off"/>
+      <check id="ENV34-C" state="off"/>
+    </section>
+    <section name="Signals (SIG)">
+      <check id="SIG00-C" state="off">
+      </check>
+      <check id="SIG01-C" state="off">
+      </check>
+      <check id="SIG02-C" state="off">
+      </check>
+      <check id="SIG30-C" state="off"/>
+      <check id="SIG31-C" state="off"/>
+      <check id="SIG34-C" state="off"/>
+      <check id="SIG35-C" state="off"/>
+    </section>
+    <section name="Error Handling (ERR)">
+      <check id="ERR00-C" state="off"/>
+      <check id="ERR01-C" state="off">
+      </check>
+      <check id="ERR02-C" state="off">
+      </check>
+      <check id="ERR03-C" state="off">
+      </check>
+      <check id="ERR04-C" state="off">
+      </check>
+      <check id="ERR05-C" state="off">
+      </check>
+      <check id="ERR06-C" state="off">
+      </check>
+      <check id="ERR07-C" state="off">
+      </check>
+      <check id="ERR30-C" state="off"/>
+      <check id="ERR32-C" state="off"/>
+      <check id="ERR33-C" state="off"/>
+      <check id="ERR34-C" state="off"/>
+    </section>
+    <section name="Application Programming Interfaces (API)">
+      <check id="API00-C" state="off">
+      </check>
+      <check id="API01-C" state="off">
+      </check>
+      <check id="API02-C" state="off">
+      </check>
+      <check id="API03-C" state="off">
+      </check>
+      <check id="API04-C" state="off"/>
+      <check id="API05-C" state="off">
+      </check>
+      <check id="API07-C" state="off">
+      </check>
+      <check id="API08-C" state="off">
+      </check>
+      <check id="API09-C" state="off">
+      </check>
+      <check id="API10-C" state="off">
+      </check>
+    </section>
+    <section name="Concurrency (CON)">
+      <check id="CON01-C" state="off"/>
+      <check id="CON02-C" state="off">
+      </check>
+      <check id="CON03-C" state="off">
+      </check>
+      <check id="CON04-C" state="off">
+      </check>
+      <check id="CON05-C" state="off"/>
+      <check id="CON06-C" state="off">
+      </check>
+      <check id="CON07-C" state="off">
+      </check>
+      <check id="CON08-C" state="off">
+      </check>
+      <check id="CON09-C" state="off">
+      </check>
+      <check id="CON30-C" state="off"/>
+      <check id="CON31-C" state="off"/>
+      <check id="CON32-C" state="off"/>
+      <check id="CON33-C" state="off"/>
+      <check id="CON34-C" state="off"/>
+      <check id="CON35-C" state="off"/>
+      <check id="CON36-C" state="off"/>
+      <check id="CON37-C" state="off"/>
+      <check id="CON38-C" state="off"/>
+      <check id="CON39-C" state="off"/>
+      <check id="CON40-C" state="off"/>
+      <check id="CON41-C" state="off"/>
+      <check id="CON42-C" state="off">
+      </check>
+      <check id="CON43-C" state="off"/>
+    </section>
+    <section name="Miscellaneous (MSC)">
+      <check id="MSC00-C" state="off">
+      </check>
+      <check id="MSC01-C" state="off"/>
+      <check id="MSC04-C" state="off"/>
+      <check id="MSC05-C" state="off">
+      </check>
+      <check id="MSC06-C" state="off">
+      </check>
+      <check id="MSC09-C" state="off">
+      </check>
+      <check id="MSC10-C" state="off">
+      </check>
+      <check id="MSC11-C" state="off">
+      </check>
+      <check id="MSC12-C" state="off"/>
+      <check id="MSC13-C" state="off"/>
+      <check id="MSC14-C" state="off">
+      </check>
+      <check id="MSC15-C" state="off"/>
+      <check id="MSC17-C" state="off"/>
+      <check id="MSC18-C" state="off"/>
+      <check id="MSC19-C" state="off">
+      </check>
+      <check id="MSC20-C" state="off"/>
+      <check id="MSC21-C" state="off"/>
+      <check id="MSC22-C" state="off"/>
+      <check id="MSC23-C" state="off">
+      </check>
+      <check id="MSC24-C" state="off"/>
+      <check id="MSC30-C" state="off"/>
+      <check id="MSC32-C" state="off"/>
+      <check id="MSC33-C" state="off"/>
+      <check id="MSC37-C" state="off"/>
+      <check id="MSC38-C" state="off"/>
+      <check id="MSC39-C" state="off"/>
+      <check id="MSC40-C" state="off"/>
+      <check id="MSC41-C" state="off"/>
+    </section>
+    <section name="POSIX (POS)">
+      <check id="POS01-C" state="off">
+      </check>
+      <check id="POS02-C" state="off">
+      </check>
+      <check id="POS04-C" state="off">
+      </check>
+      <check id="POS05-C" state="off"/>
+      <check id="POS30-C" state="off"/>
+      <check id="POS34-C" state="off"/>
+      <check id="POS35-C" state="off"/>
+      <check id="POS36-C" state="off"/>
+      <check id="POS37-C" state="off"/>
+      <check id="POS38-C" state="off"/>
+      <check id="POS39-C" state="off"/>
+      <check id="POS44-C" state="off"/>
+      <check id="POS47-C" state="off"/>
+      <check id="POS48-C" state="off"/>
+      <check id="POS49-C" state="off"/>
+      <check id="POS50-C" state="off"/>
+      <check id="POS51-C" state="off"/>
+      <check id="POS52-C" state="off"/>
+      <check id="POS53-C" state="off"/>
+      <check id="POS54-C" state="off"/>
+    </section>
+    <section name="Microsoft Windows (WIN)">
+      <check id="WIN00-C" state="off"/>
+      <check id="WIN01-C" state="off">
+      </check>
+      <check id="WIN02-C" state="off">
+      </check>
+      <check id="WIN03-C" state="off">
+      </check>
+      <check id="WIN04-C" state="off">
+      </check>
+      <check id="WIN30-C" state="off"/>
+    </section>
+  </standard>
+  <standard name="SEI CERT C++" state="off"/>
+  <standard name="ISO/IEC TS 17961" state="off"/>
+  <standard name="AUTOSAR C++14" state="off"/>
+  <standard name="Guidelines" state="off"/>
+  <standard name="CUSTOM RULES" state="off"/>
+</polyspace_checkers_selection>
