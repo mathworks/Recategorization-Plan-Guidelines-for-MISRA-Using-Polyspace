@@ -4,7 +4,7 @@
 
 The goal of this document is to provide a process of complete Polyspace Bug Finder workflow that supports the MISRA compliance 2020 document edited by the MISRA Consortium “Achieving compliance with MISRA Coding Guidelines”.
 
-### MathWorks Products (http://www.mathworks.com)
+### MathWorks Products (https://www.mathworks.com)
 
 Requires Polyspace Bug Finder and Polyspace Access release R2022a or newer
 
